@@ -3,7 +3,7 @@ import changePost from '../api/changePost';
 import deletePost from '../api/deletePost';
 import getApiPosts from '../api/getApiPosts';
 
-interface IPost {
+export interface IPost {
   userId: number;
   id: number;
   title: string;
